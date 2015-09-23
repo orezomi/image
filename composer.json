@@ -1,0 +1,34 @@
+{
+    // package name
+    "name": "orezomi/image",
+
+    // package type
+    "type": "yii2-extension",
+
+    "description": "Yii2 extension for image processing",
+    "keywords": ["yii2", "image size", "resize image", "yii2 kohana"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/orezomi/image"
+    },
+    "authors": [
+        {
+            "name": "orezomi",
+            "email": "harismoaji@gmail.com"
+        }
+    ],
+
+    // package dependencies
+    "require": {
+        "php":">5.4.0",
+        "yiisoft/yii2": "*",
+        "kohana/image": "*"
+    },
+
+    // class autoloading specs
+    "autoload": {
+        "psr-4": {
+            "orezomi\\image\\": ""
+        }
+    }
+}
