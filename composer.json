@@ -1,8 +1,5 @@
 {
-    // package name
     "name": "orezomi/image",
-
-    // package type
     "type": "yii2-extension",
 
     "description": "Yii2 extension for image processing",
@@ -17,15 +14,12 @@
             "email": "harismoaji@gmail.com"
         }
     ],
-
-    // package dependencies
     "require": {
         "php":">5.4.0",
         "yiisoft/yii2": "*",
         "kohana/image": "*"
     },
 
-    // class autoloading specs
     "autoload": {
         "psr-4": {
             "orezomi\\image\\": ""
