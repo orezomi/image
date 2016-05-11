@@ -27,7 +27,7 @@ Configuration web.php
 'components' => [
        ...
     	'image'=>[
-    		'class'=>'orezomi\yii2rss\Imagos',
+    		'class'=>'orezomi\image\Imagos',
     	],
     	...
     	]
