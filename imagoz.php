@@ -1,9 +1,5 @@
 <?php
 namespace orezomi\image;
-/**
- * harismo aji
- * harismoaji@gmail.com
- */
 use Yii;
 use yii\base\Component;
 use yii\base\ErrorException;
